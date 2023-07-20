@@ -9,6 +9,7 @@
   --slatecolor: #434455;
   --cloud: #f4f4fd;
 }
+
 /* CSS Reset */
 
 p,
@@ -39,6 +40,13 @@ body {
   letter-spacing: 0.03em;
   color: var(--slatecolor);
 }
+
+/* General Styles */
+
+.container {
+  width: 1158px;
+}
+
 /* Checked */
 .logo-link {
   font-family: "Raleway", sans-serif;
@@ -48,22 +56,27 @@ body {
   font-weight: 800;
   letter-spacing: 0.04em;
 }
+
 /* Checked */
 .logo-link > span {
   font-size: 18px;
 }
+
 /* Checked */
 .logo {
   color: var(--iris);
 }
+
 /* Checked */
 .studio {
   color: var(--navyblue);
 }
+
 /* Checked */
 .studio-footer {
   color: var(--cloud);
 }
+
 /* Checked */
 .nav-menu .page {
   color: var(--navcolor);
@@ -72,10 +85,12 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
 /* Checked */
 .list {
   list-style-type: none;
 }
+
 /* Checked */
 .nav-menu .page:hover,
 .nav-menu .page:focus,
@@ -84,6 +99,7 @@ body {
 .contacts-menu .item:focus {
   color: var(--iris);
 }
+
 /* Checked */
 .contacts-menu .item {
   color: var(--slatecolor);
@@ -92,10 +108,12 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+
 /* Checked */
 .bg-hero {
   background-color: var(--navyblue);
 }
+
 /* Checked */
 .hero-title {
   color: var(--whitecolor);
@@ -104,6 +122,7 @@ body {
   text-align: center;
   letter-spacing: 0.04em;
 }
+
 /* Checked */
 .bg-team {
   background-color: var(--cloud);
@@ -120,6 +139,7 @@ body {
   border-radius: 4px;
   font-size: 16px;
 }
+
 /* Checked */
 .button.primary {
   background-color: var(--iris);
@@ -127,11 +147,13 @@ body {
   line-height: 1.87;
   letter-spacing: 0.05em;
 }
+
 /* Checked */
 .button.primary:hover,
 .button.primary:focus {
   background-color: var(--oceancolor);
 }
+
 /* Checked */
 .button.filter {
   background-color: var(--cloud);
@@ -139,6 +161,7 @@ body {
   font-weight: 500;
   line-height: 1.62;
 }
+
 /* Checked */
 .button.filter:hover,
 .button.filter:focus,
@@ -146,6 +169,7 @@ body {
   background-color: var(--oceancolor);
   color: var(--cloud);
 }
+
 /* Checked */
 .section-title {
   text-align: center;
@@ -153,12 +177,14 @@ body {
   font-size: 36px;
   line-height: 1.17;
 }
+
 /* Checked */
 .benefits .title {
   font-size: 20px;
   font-weight: 500;
   color: var(--navyblue);
 }
+
 /* Checked */
 .benefits .description {
   color: var(--slatecolor);
@@ -166,6 +192,7 @@ body {
   font-size: 16px;
   font-weight: 400;
 }
+
 /* Checked */
 .team .name {
   color: var(--navyblue);
@@ -174,6 +201,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
 }
+
 /* Checked */
 .team .position {
   color: var(--slatecolor);
@@ -181,18 +209,22 @@ body {
   font-weight: 400;
   text-align: center;
 }
+
 /* Checked */
 .page-footer.bg-footer {
   background-color: var(--navyblue);
 }
+
 /* Checked */
 .footer-description {
   color: var(--cloud);
 }
+
 /* Checked */
 .project {
   text-decoration: none;
 }
+
 /* Checked */
 .project .name {
   color: var(--navyblue);
@@ -201,6 +233,7 @@ body {
   line-height: 2;
   letter-spacing: 0.04em;
 }
+
 /* Checked */
 .project.type {
   color: var(--slatecolor);
