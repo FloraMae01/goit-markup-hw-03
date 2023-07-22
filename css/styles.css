@@ -225,6 +225,7 @@ body {
 .benefits.list {
   display: flex;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 .team.list {
@@ -251,6 +252,11 @@ body {
   display: flex;
   gap: 32px;
   text-align: center;
+}
+
+.what-we-do.list {
+  display: flex;
+  gap: 10px;
 }
 
 .team-item {
