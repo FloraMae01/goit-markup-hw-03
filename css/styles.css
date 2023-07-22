@@ -49,6 +49,7 @@ body {
   padding-right: 15px;
   margin: 0 auto;
   border: 2px solid blue;
+  margin-bottom: 20px;
 }
 
 /* Checked */
@@ -142,6 +143,7 @@ body {
   line-height: 1.5;
   border-radius: 4px;
   font-size: 16px;
+  text-align: center;
 }
 
 /* Checked */
@@ -150,6 +152,7 @@ body {
   color: var(--whitecolor);
   line-height: 1.87;
   letter-spacing: 0.05em;
+  text-align: center;
 }
 
 /* Checked */
@@ -176,6 +179,7 @@ body {
 
 /* Checked */
 .section-title {
+  margin-bottom: 20px;
   text-align: center;
   color: var(--navyblue);
   font-size: 36px;
