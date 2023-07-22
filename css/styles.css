@@ -220,11 +220,12 @@ body {
   display: flex;
   gap: 15px;
   text-align: center;
+  justify-content: center;
+  padding-bottom: 16px;
 }
 
 .filters.list {
   display: flex;
-  margin-left: auto;
   justify-content: center;
 }
 
