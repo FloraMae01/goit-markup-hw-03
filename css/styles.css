@@ -48,8 +48,12 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  border: 2px solid blue;
-  margin-bottom: 20px;
+  /*   border: 2px solid blue; */
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 /* Checked */
@@ -238,6 +242,8 @@ body {
 
 /* Checked */
 .page-footer.bg-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--navyblue);
 }
 
