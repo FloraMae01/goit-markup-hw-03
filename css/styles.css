@@ -214,13 +214,12 @@ body {
 
 /* Checked */
 .section-title {
-  margin-bottom: 20px;
   color: var(--navyblue);
   font-size: 36px;
   line-height: 1.17;
   display: flex;
   gap: 15px;
-  align-items: center;
+  text-align: center;
 }
 
 .benefits.list {
