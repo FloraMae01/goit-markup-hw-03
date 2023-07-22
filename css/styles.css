@@ -201,6 +201,10 @@ body {
   font-weight: 400;
 }
 
+.section {
+  display: flex;
+}
+
 .team-list {
   display: flex;
   gap: 32px;
