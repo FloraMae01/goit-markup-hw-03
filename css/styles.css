@@ -10,29 +10,12 @@
   --cloud: #f4f4fd;
 }
 
-/* CSS Reset */
-
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
-
-ul,
-ol {
+* {
+  list-style: none;
+  text-decoration: none;
   margin: 0;
   padding: 0;
 }
-
-img {
-  display: block;
-}
-
-/* End of CSS Reset */
 
 .header {
   padding-top: 25px;
@@ -41,6 +24,28 @@ img {
 .header-container {
   display: flex;
   align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  margin-right: 130px;
+}
+
+.header-list {
+  display: flex;
+  gap: 30px;
+}
+
+.header-contacts {
+  display: flex;
+  margin-left: auto;
+  gap: 30px;
 }
 
 body {
