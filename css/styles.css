@@ -223,6 +223,11 @@ body {
   gap: 15px;
 }
 
+.benefits.list {
+  display: flex;
+  gap: 10px;
+}
+
 /* Checked */
 .benefits .title {
   font-size: 20px;
