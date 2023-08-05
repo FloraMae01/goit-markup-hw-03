@@ -134,7 +134,7 @@ body {
 .studio {
   color: var(--navyblue);
 }
-
+/* Checked */
 .studio-footer {
   color: var(--cloud);
 }
@@ -360,7 +360,7 @@ body {
   font-size: 16px;
   font-weight: 400;
 }
-
+/* Checked */
 .substrate {
   background-color: var(--white);
   padding: 20px 24px;
